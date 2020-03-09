@@ -3,15 +3,13 @@
 $(function(){
     'use strict';
     /********* body ******/
-    var span1 = $("nav > .container > .row > div:first-child > span:nth-of-type(2)")
-    var span2 = $("nav > .container > .row > div:first-child > span:nth-of-type(3)")
+    var span1 = $("nav > .container > .row > div:first-child > span:nth-of-type(1)")
+    var span2 = $("nav > .container > .row > div:first-child > span:nth-of-type(2)")
     $(span2).on("click", function(){
-        $("body").toggleClass("light-mode no");
-        $("#button-top").toggleClass("light-mode no");
+        $("body, #button-top, nav, .list-perfume").toggleClass("light-mode no");
     });
     $(span1).on("click", function(){
-        $("body").toggleClass("light-mode no");
-        $("#button-top").toggleClass("light-mode no");
+        $("body, #button-top, nav, .list-perfume").toggleClass("light-mode no");
     });
 
 
@@ -49,7 +47,7 @@ $(function(){
         slidesToScroll: 1,
         slidesToShow: 4,
         autoplay: true,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 7000,
         dots: false,
         infinite: true,  
 
