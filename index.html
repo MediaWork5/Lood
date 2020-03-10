@@ -8,6 +8,8 @@
         <!-- for logo -->
         <link rel="icon" href="#">
         <title>LOOD</title>
+        <!-- animation -->
+        <link rel="stylesheet" href="css/animate.css">
         <!-- frame work -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- for Icon-->
@@ -59,24 +61,16 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/intro1.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
+                            <img class="animated zoomIn" src="images/intro1.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/intro2.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
+                            <img class="animated slideInUp" src="images/intro2.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/intro3.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
+                            <img class="animated zoomIn" src="images/intro3.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/intro4.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
+                            <img class="animated slideInDown" src="images/intro4.jpg" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
@@ -84,28 +78,6 @@
         </header>
         <!-- End Header -->
 
-        <!-- Start Logo -->
-        <section class="logo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 col-4">
-                        <h2>L</h2>
-                        <h2>O</h2>
-                        <h2>O</h2>
-                        <h2>D</h2>
-                    </div>
-                    <div class="col-8">
-                        <div>
-                            <img src="images/lood-header.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-2"></div>  <!-- it empty untill md scrien-->
-                </div>
-            </div>
-            <hr>
-        </section>
-        <!--  End logo  -->
-    
         <!-- Start Aurum -->
         <section class="aurum">
             <div class="container">
@@ -288,5 +260,10 @@
         <script src="js/jquery-migrate-1.2.1.min.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/main-script.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/wowjava.js"></script>
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>
